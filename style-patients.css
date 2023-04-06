@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+/* Navbar */
+.color-1 {
+    background:#296fbb;
+}
+
+.flex {
+    display: flex;
+}
+
+
+#navbar {
+    position: sticky;
+    top: 0;
+    color: white;
+    /* For z-index, the higher the number, the closer to you it is; it will allow the navbar to be on top of everything when we will scroll down */
+    z-index: 1;
+    padding: 0.2rem;
+}
+#navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+#navbar ul li a {
+    font-weight: 600;
+    color: white;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+    border: none;
+    border-radius: 5px;
+}
+#navbar ul li a:hover {
+    background:#7FC432 ;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.image_1 {
+    max-width: 5rem;
+}
+a {
+    text-decoration: none;
+}
+#form {
+    background: url("/Images/background-patients.JPG") no-repeat center center/cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    opacity: 0.8;
+}
+#container-form {
+    margin-top: 3rem;
+}
+#form-content {
+    background: white;
+    width: 600px;
+    padding:24px;
+}
+#form-content h1,
+#form-content p {
+    text-align: center;
+}
+.form label {
+    display: block;
+}
+.form {
+    margin-top: 7px;
+}
+.form input {
+    width: 90%;
+    padding: 5px;
+}
+.text-bottom {
+    margin-top: 35px;
+}
+#main-footer {
+    text-align: center; 
+}
+.link {
+    text-decoration: none;
+    color:#0f7575;
+}
+#form-content .button{
+    background: #7FC432;
+    text-decoration: none;
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+    padding: 1rem 5rem;
+    color: white;
+
+}
+
+#form-content .centering {
+    padding-left: 10rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-1 {
+    display: flex;
+    justify-content: space-between
+}
+
+fieldset {
+    padding: 1rem;
+}
+
+.espace {
+    margin-top: 1rem;
+}
+
+.mt {
+    padding-top: 2rem;
+}
+
+.p-left {
+    padding-left: 2rem;
+}
+
+.padding-y {
+    margin-top: 50rem;
+}
