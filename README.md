@@ -19,6 +19,6 @@ Ce repo Github contient tous les codes PHP et CSS nécaissaires au bon fonctionn
 Il contient aussi le script SQL permettant la création de la base de données et le stockage 
 des élements.
 
-Github, ne supportant pas les fichiers du type .ppt, nous avons décider de mettre la présentation
+Github, ne supportant pas les fichiers du type .ppt, nous avons décidé de mettre la présentation
 de l'application et la démo sur un dossier drive accessible. Voici le dossier Drive:
 https://drive.google.com/drive/folders/16ta6jTj8kSn8BNlVFWwK6qMJarPg7brm?usp=sharing
